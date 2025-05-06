@@ -18,7 +18,7 @@ class student{
 	
 	student (student sk){
 		sID=sk.sID;
-		   Marks=sk.Marks;
+		Marks=sk.Marks;
 		   Sname=sk.Sname;
 		    classname=sk. classname;
 	}
@@ -43,10 +43,9 @@ public class Conjava {
 		
 		student a1=new student(101,88,"rushi","Rose");
 		a1.Display();
-		
-	    student s1 =new student(a1);
-	    
-		System.out.println("Show Student detail"+s1 );
+	//here we use the copy constructor 
+	       student s1 =new student(a1);
+	    s1.Display();
 		
 	}
 
