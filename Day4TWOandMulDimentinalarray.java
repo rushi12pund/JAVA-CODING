@@ -10,7 +10,7 @@ public class Multi {
         
         int a[][][] = new int[2][3][3]; // a[0] and a[1] are 2 matrices
   int temp=0;
-        // Input for both matrices
+        // Input for both matrics 
         for (int k = 0; k < 2; k++) {
             System.out.println("Enter elements for Matrix " + (k + 1) + ":");
             for (int i = 0; i < 3; i++) {
@@ -83,7 +83,7 @@ public class Multi {
 
 
 
-
+//other codes
 
 
 
