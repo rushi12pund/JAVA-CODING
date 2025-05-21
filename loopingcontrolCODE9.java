@@ -1,5 +1,13 @@
 package practicaldaythuslooping;
 
+
+// *   
+// **
+// ***
+// ****
+
+
+
 public class codejava {
     public static void main(String[] args) {
       
